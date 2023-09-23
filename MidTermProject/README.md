@@ -7,6 +7,7 @@ However, trying something completely new might be a really good idea too.
 Since I love dogs and I have one, I decided to go with Kaggle 'animal-behavior-analysis' (https://www.kaggle.com/datasets/arashnic/animal-behavior-analysis?resource=download). 
 
 Here is my dog, btw. Here name is Caoimhe. 
+
 ![Screenshot from 2023-09-23 15-00-04](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/82ba6213-5e38-4a65-91b2-7ab2d5a18872)
 
 
