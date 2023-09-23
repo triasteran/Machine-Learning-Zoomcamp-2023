@@ -10,8 +10,6 @@ Here is my dog, btw. Here name is Caoimhe.
 
 ![Screenshot from 2023-09-23 15-00-04](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/82ba6213-5e38-4a65-91b2-7ab2d5a18872)
 
-
-
 Structure of the repository is following: 
 * README.md
 * notebook.ipynb
