@@ -1,4 +1,4 @@
-# MidTermProject 
+# MidTermProject: behavior of fluffy friends 
 
 First, I searched articles where interesting Kaggle datasets are described. 
 I was thinking about some biological data since I'm a bioinformatician. 
