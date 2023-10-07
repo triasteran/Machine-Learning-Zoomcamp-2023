@@ -1,0 +1,9 @@
+name: MLmodel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.13
+  - flask=2.3.2
+  - scipy=1.11.1
+  - numpy=1.24.4
+  - pandas=1.24.4
