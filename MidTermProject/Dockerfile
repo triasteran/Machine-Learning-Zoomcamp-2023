@@ -5,22 +5,18 @@ FROM continuumio/miniconda3
 COPY conda_env.yml .
 
 # create conda environment 
+RUN conda config --add channels anaconda 
 RUN conda env create -f conda_env.yml
 
-# activate conda environment 
-RUN echo "conda activate MLmodel" >> ~/.bashrc
-SHELL ["/bin/bash", "--login", "-c"]
-
-RUN echo "conda environment is activated, scipy version is"
-RUN python -c "import scipy"
+SHELL ["conda", "run", "--no-capture-output", "-n", "myenv", "/bin/bash", "-c"]
 
 # set workdir as app/
 WORKDIR /app
 
 # copy model, script for prediction to workdir 
-COPY ["predict.py", "model.bin", "./"]
+COPY ["predict.py", "model.C=1.n=130.bin", "./"]
 
 # make this port visible 
 EXPOSE 9696
 
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
