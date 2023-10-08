@@ -24,10 +24,14 @@ This project is about using thousands gene expression data from hundreds of pati
 
 * <b>README.md</b>. You are reading it now; it contains description of the project, provides links to dataset and instructions how to run the dockerised ML model. 
 * <b>notebook_v1.ipynb</b>. It contains code for data processing, visualisation and model development 
-* <b>train.py</b>. It contains GridSearchCV for parameters tuning and training the final model and saving it using pickle library 
+* <b>train.py</b>. It contains GridSearchCV for parameters tuning and training the final model and saving it using pickle library (to the file model.C=1.n=130.bin)
+* <b>model.C=1.n=130.bin</b> saved ML model  
 * <b>predict.py</b>. It loads the model and serve it via a web serice (Flask)
+* <b>predict-test.py</b>. It contains code for testing the model
 * <b>conda_env.yml</b>. It is conda environment for specifying packages and versions 
-* <b>Dockerfile</b>. It contains receipy for docker container 
+* <b>Dockerfile</b>. It contains receipy for docker container
+* <b>B-CELL_ALL_ETV6-RUNX1.json, B-CELL_ALL_HYPERDIP.json, B-CELL_ALL_HYPO.json, B-CELL_ALL_MLL.json, B-CELL_ALL_T-ALL.json</b> These are json files containing test dictionaries that are used in predict-test.py; their names corrspond to their True classes 
+
 
 
 ML model is organised in a following framework (except, maybe, wrapping up in a cloud): 
