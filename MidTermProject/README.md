@@ -22,11 +22,13 @@ This project is about using thousands gene expression data from hundreds of pati
 
 ## Structure of the repository
 
-* README.md
-* notebook.ipynb
-* train.py
-* predict.py
-* Dockerfile
+* <b>README.md</b>. You are reading it now; it contains description of the project, provides links to dataset and instructions how to run the dockerised ML model. 
+* <b>notebook_v1.ipynb</b>. It contains code for data processing, visualisation and model development 
+* <b>train.py</b>. It contains GridSearchCV for parameters tuning and training the final model and saving it using pickle library 
+* <b>predict.py</b>. It loads the model and serve it via a web serice (Flask)
+* <b>conda_env.yml</b>. It is conda environment for specifying packages and versions 
+* <b>Dockerfile</b>. It contains receipy for docker container 
+
 
 ML model is organised in a following framework (except, maybe, wrapping up in a cloud): 
 
