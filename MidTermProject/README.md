@@ -46,18 +46,14 @@ Then, you can run the docker container with gunicorn server using this command:
 ```
 docker run -it --rm -p 9696:9696 ml
 ```
+![Screenshot from 2023-10-08 19-07-25](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/1e5309d9-c689-4501-929a-70e46c2842bd)
+
 
 In parallel, you can test the model by typing this command: 
 ```
 python python predict-test.py
 ```
+![Screenshot from 2023-10-08 19-07-48](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/fcee1ef0-8113-41d1-a6d1-16b573d0883d)
 
-Expected output: 
-```
-{'class_number': 4.0, 'probability_of_class': 0.999847939746374, 'subtype': 'B-CELL_ALL_MLL'}
-{'class_number': 2.0, 'probability_of_class': 0.9999315880097102, 'subtype': 'B-CELL_ALL_HYPERDIP'}
-{'class_number': 3.0, 'probability_of_class': 0.998557557184204, 'subtype': 'B-CELL_ALL_HYPO'}
-{'class_number': 5.0, 'probability_of_class': 0.9998561615581214, 'subtype': 'B-CELL_ALL_T-ALL'}
-{'class_number': 1.0, 'probability_of_class': 0.9999967231199175, 'subtype': 'B-CELL_ALL_ETV6-RUNX1'}
-```
+
 
