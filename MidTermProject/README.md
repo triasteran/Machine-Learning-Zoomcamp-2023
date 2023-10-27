@@ -6,7 +6,7 @@ First, I searched articles where interesting datasets are described.
 I was thinking about some biological data since I'm working as a bioinformatician. 
 Currently, my area of exprertise is translatomics, however, I used to have some basic experience with cancer transcriptomics data. 
 
-I decided to go with the dataset containing the aggregation of microarray gene expression data of leukemia patients from CuMiDa (available in a raw form here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9476 and procesed form here: https://sbcb.inf.ufrgs.br/cumida). 
+I decided to go with the dataset containing the aggregation of microarray gene expression data of leukemia patients from CuMiDa (available in a raw reads form here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9476 and procesed form here: https://sbcb.inf.ufrgs.br/cumida). 
 
 Let's begin with some basic terminology. 
 
