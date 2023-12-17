@@ -12,7 +12,7 @@ Let's have a look at the examples of classes.
 
 In this project I tried CNN-based models (built from scratch and pretrained: EfficientNet and VGG16) and other standard ML models (Random Forest and Naive Bayes). 
 
-<img src="https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/blob/main/CapstoneProject1/plots/Untitled%20presentation%20(3).png?raw=true" width="200" height="400" />
+<img src="https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/blob/main/CapstoneProject1/plots/Untitled%20presentation%20(3).png?raw=true" width="500" height="300" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
