@@ -1,7 +1,7 @@
 # CapStoneProject1: Image classification of leukemia and normal cells 
 
 ## Project description 
-I decided to continue on the topic of leukemia (like I did in the MidTermProject), but this time it is binary image classification of normal and abnormal leukemic cells. Acute lymphoblastic leukemia (ALL) is the most common type of childhood cancer and accounts for approximately 25% of the pediatric cancers. 
+I decided to continue on the topic of leukemia (like I did in the MidTermProject), but this time it is binary image classification of normal and leukemic cells. Acute lymphoblastic leukemia (ALL) is the most common type of childhood cancer and accounts for approximately 25% of the pediatric cancers. 
 It is important to be able to diagnose it at early stages. The task is to distinguish between normal cells and immature leukemic blasts using images obtained with microscope. It is quite challenging task for researcher because cells share morphological similarity. 
 
 The data are available at https://www.kaggle.com/datasets/andrewmvd/leukemia-classification. 
@@ -9,10 +9,10 @@ The data are available at https://www.kaggle.com/datasets/andrewmvd/leukemia-cla
 Let's have a look at the examples of classes. 
 
 'ALL': leukemic cell 
-![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_78_9_7_all.bmp) 
+![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_78_9_7_all.bmp)) 
 
 'HEM': normal cell 
-![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_H48_16_13_hem.bmp)
+![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_H48_16_13_hem.bmp))
 
 In this project I'll be training CNN-based models and other standard ML models. 
 
