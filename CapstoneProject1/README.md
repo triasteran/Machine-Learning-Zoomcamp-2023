@@ -1,7 +1,7 @@
 # CapStoneProject1: Image classification of leukemia and normal cells 
 
 ## Project description 
-I decided to continue on the topic of leukemia (like I did in the MidTermProject), but this time it is binary image classification of normal and leukemic cells. Acute lymphoblastic leukemia (ALL) is the most common type of childhood cancer and accounts for approximately 25% of the pediatric cancers. 
+I decided to continue on the topic of leukemia (like I did in the MidTermProject with gene expression data), but this time it is binary image classification of normal and leukemic cells. Acute lymphoblastic leukemia (ALL) is the most common type of childhood cancer and accounts for approximately 25% of the pediatric cancers. 
 It is important to be able to diagnose it at early stages. The task is to distinguish between normal cells and immature leukemic blasts using images obtained with microscope. It is quite challenging task for researcher because cells share morphological similarity. 
 
 The data are available at https://www.kaggle.com/datasets/andrewmvd/leukemia-classification. 
