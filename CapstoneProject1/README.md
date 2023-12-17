@@ -28,16 +28,29 @@ The final model turned out to weigh more than 25Mb which (allowed for github upl
 If you want to repeat the pipeline, you will need to run the train.py first which will save the model (e.g. with name something like cnn_v1_04_0.835.h5) and 
 then you can add the model name to the Docker file before building an image and also add it to predict.py script. 
 
+E.g. in the Docker file you need to put the name of the model: 
+```
+COPY ["predict.py", "cnn_v1_04_0.835.h5", "./"]
+```
+
+And in predict.py: 
+```
+model_file = 'cnn_v1_04_0.835.h5'
+```
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Instructions on how to run the project
 
-First, you can download the content of the github dir by using this command: 
+First, you can download the content of the this specific github dir by using following commands: 
 ```
-git clone ... 
+git clone --depth 1 --no-checkout https://github.com/triasteran/Machine-Learning-Zoomcamp-2023.git
+cd Machine-Learning-Zoomcamp-2023
+git sparse-checkout set CapstoneProject1
+git checkout
 ```
 
-Next, after you changed to the downloaded directory with Dockerfile, you need to build docker image using this command. This would take ~5minutes. 
+Next, after you changed to the downloaded directory with Dockerfile (CapstoneProject1), you need to build docker image using this command. This would take several minutes. 
 ```
 docker build -t ml .
 ```
@@ -52,7 +65,7 @@ In parallel, you can test the model by typing this command:
 python python predict_test.py
 ```
 
-This it the expected output: 
+This it the expected output (numbers might be different depending on which model you decided to use): 
 ```
 expected class: ALL {'all': '0.9530534744262695', 'hem': '0.046946526'}
 expected class: HEM {'all': '0.20552486181259155', 'hem': '0.79447514'}
