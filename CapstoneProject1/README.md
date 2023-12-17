@@ -8,7 +8,7 @@ The data are available at https://www.kaggle.com/datasets/andrewmvd/leukemia-cla
 
 Let's have a look at the examples of classes. 
 
-<img src="[https://github.com/favicon.ico](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/blob/main/CapstoneProject1/plots/Untitled%20presentation%20(3).png?raw=true)" width="28">
+<img src="https://github.com/favicon.ico](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/blob/main/CapstoneProject1/plots/Untitled%20presentation%20(3).png?raw=true" width="28">
 
 
 
