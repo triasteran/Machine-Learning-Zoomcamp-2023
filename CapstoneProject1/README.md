@@ -24,8 +24,8 @@ In this project I tried CNN-based models (built from scratch and pretrained: Eff
 * <b>conda_env.yml</b>. It is conda environment for specifying packages and versions 
 * <b>Dockerfile</b>. It contains receipy for docker container
 
-The final model turned out to weigh more than 25Mb which (allowed for github upload), therefore I do not have it here.  
-Therefore if you want to repeat the pipeline, you will need to run the train.py first which will save the model (e.g. with name cnn_v1_04_0.835.h5) and 
+The final model turned out to weigh more than 25Mb which (allowed for github upload), that's why I do not have it here.  
+If you want to repeat the pipeline, you will need to run the train.py first which will save the model (e.g. with name something like cnn_v1_04_0.835.h5) and 
 then you can add the model name to the Docker file before building an image and also add it to predict.py script. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
