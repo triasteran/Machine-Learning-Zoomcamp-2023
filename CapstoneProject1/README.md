@@ -9,10 +9,10 @@ The data are available at https://www.kaggle.com/datasets/andrewmvd/leukemia-cla
 Let's have a look at the examples of classes. 
 
 'ALL': leukemic cell 
-![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_78_9_7_all.bmp)) 
+![image](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_78_9_7_all.bmp)
 
 'HEM': normal cell 
-![image]([https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/assets/47274795/71a7a120-a612-43fa-b3fd-4e8983887677](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_H48_16_13_hem.bmp))
+![image](https://raw.githubusercontent.com/triasteran/Machine-Learning-Zoomcamp-2023/main/CapstoneProject1/tests/UID_H48_16_13_hem.bmp)
 
 In this project I'll be training CNN-based models and other standard ML models. 
 
