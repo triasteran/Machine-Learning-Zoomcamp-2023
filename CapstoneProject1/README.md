@@ -10,11 +10,7 @@ Let's have a look at the examples of classes.
 
 ![image](https://github.com/triasteran/Machine-Learning-Zoomcamp-2023/blob/main/CapstoneProject1/plots/Untitled%20presentation%20(3).png?raw=true) 
 
-
-
-
-
-In this project I'll be training CNN-based models and other standard ML models. 
+In this project I tried CNN-based models (built from scratch and pretrained: EfficientNet and VGG16) and other standard ML models (Random Forest and Naive Bayes). 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,7 +25,7 @@ In this project I'll be training CNN-based models and other standard ML models.
 * <b>Dockerfile</b>. It contains receipy for docker container
 
 The final model turned out to weigh more than 25Mb which (allowed for github upload), therefore I do not have it here.  
-Therefore if you want to repeat the pipeline, you will need to run the train.py first which will save the model (e.g. with name X) and 
+Therefore if you want to repeat the pipeline, you will need to run the train.py first which will save the model (e.g. with name cnn_v1_04_0.835.h5) and 
 then you can add the model name to the Docker file before building an image and also add it to predict.py script. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
