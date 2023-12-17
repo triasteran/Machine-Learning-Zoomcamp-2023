@@ -1,5 +1,5 @@
 
-
+model in h5 format was to huge to be saved to github 
 
 > docker build -t ml .
 
